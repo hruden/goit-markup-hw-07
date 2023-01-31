@@ -1,0 +1,110 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        
+    }
+    .mob-menu-open {
+        display: none;
+    }
+    .logo {
+        margin-right: 123px;
+    }
+    .mob-menu-modal {
+        display: none;
+    }
+    .hero {
+        background: #2E2F42;
+        background-image:linear-gradient(
+             rgba(46, 47, 66, 0.7),
+             rgba(46, 47, 66, 0.7)),        
+              url(../images/hero/hero-bg-tab.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .hero-title{
+        font-size: 56px;
+        line-height: 1.07;
+
+        width: 500px;
+        margin-bottom: 40px;
+    }
+    .aboute-us-item {
+        max-width: calc((100% - 24px) / 2);
+    }
+    .aboute-us-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 72px;
+    }
+    .section-teem {
+        padding-bottom: 104px;
+    }
+    .teem-list {
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 64px;
+        
+        
+    }
+    .teem-item {
+        max-width: calc((100% - 24px) / 2);
+    }
+    .customers-list {
+        gap: 24px;
+    }
+    .costomers-item {
+        width: 168px;
+        max-width: calc((100% - 48px) / 3);
+    
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        justify-content: center;
+        
+    }
+    .footer-email {
+        margin: 0;
+    }
+    .subscribe-button {
+        margin: 0;
+    }
+    .footer-label {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+
+    }
+    .footer-email {
+        max-width: 268px;
+    }
+    .footer-subscribe {
+        margin-left: 108px;
+    }
+    .modal {
+        top: 50%;
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px) {
+            .hero {
+                background: #2E2F42;
+                background-image:linear-gradient(
+                     rgba(46, 47, 66, 0.7),
+                     rgba(46, 47, 66, 0.7)), 
+                    url(../images/hero/hero-bg-tab@2x.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+              }
+}
+/* --------max-width */
+@media screen and (max-width: 1199px) {
+    .section-doing {
+        display: none;
+    }
+}
