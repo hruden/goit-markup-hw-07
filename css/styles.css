@@ -145,6 +145,7 @@ img {
     margin-top: 48px;
 }
 .mob-contacts-tel {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
@@ -435,14 +436,16 @@ img {
 
 /* portfolio main*/
 .portfolio {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 .portfolio-nav{
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
-    justify-content: center;
-    margin-bottom: 72px;
+    row-gap: 16px;
+    justify-content:left;
+    margin-bottom: 48px;
 }
 
 .portfolio-buttons:hover,
@@ -466,7 +469,6 @@ img {
     transition: background-color var(--tra), box-shadow var(--tra), color var(--tra);
 }
 .portfolio-list {
-    max-width: calc((100% - 48px) / 3);
     transition: box-shadow var(--tra);
 }
 .portfolio-list:hover {

@@ -88,6 +88,22 @@
     .modal {
         top: 50%;
     }
+    .portfolio {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+    .portfolio-nav{
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+    .portfolio-list {
+        max-width: calc((100% - 24px) / 2);
+    }
+    .portfolio-examples {
+        row-gap: 72px;
+        justify-content:left;
+    }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
         screen and (min-resolution: 192dpi) and (min-width: 768px),
@@ -107,4 +123,9 @@
     .section-doing {
         display: none;
     }
+    .contacts-item {
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+    } 
 }

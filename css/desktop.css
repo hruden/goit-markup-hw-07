@@ -107,6 +107,22 @@
     .footer-subscribe {
         margin: 0;
     }
+    .footer-email {
+        width: 264px;
+    }
+    .portfolio {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+    .portfolio-nav{
+        margin-bottom: 72px;
+    }
+    .portfolio-list {
+        max-width: calc((100% - 48px) / 3);
+    }
+    .portfolio-examples {
+        row-gap: 48px;
+    }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
         screen and (min-resolution: 192dpi) and (min-width: 1200px),
